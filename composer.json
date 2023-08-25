@@ -1,0 +1,19 @@
+{
+    "name": "jberrio-ing/laravel-sqlsrv-avoid-error",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SqlsrvAvoidError\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhonvanny Berrio"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "laravel/framework": ">=8.0"
+    }
+}
