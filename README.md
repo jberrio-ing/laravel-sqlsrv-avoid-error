@@ -7,12 +7,16 @@ This error is generated when the `PDO::ATTR_STRINGIFY_FETCHES` attribute is pres
 Make sure you have a Laravel application set up.
 
 ## Steps to Register the service provider
+1. Install the package
 
-1. **Locate the `config/app.php` file**
+```sh
+composer require jberrio-ing/laravel-sqlsrv-avoid-error
+```
+2. **Locate the `config/app.php` file**
 
    Open the `config/app.php` file in your Laravel project.
 
-2. **Add the Service Provider**
+3. **Add the Service Provider**
 
    In the `providers` array, add the fully qualified class name of the `SqlsrvAvoidErrorProvider` from the `SqlsrvAvoidError` namespace. Your `config/app.php` should look something like this:
 
